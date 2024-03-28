@@ -13,39 +13,40 @@ body {
     font-family:'Outfit';    
 }
 
-.main {
-    display: block;     
+.main-conteiner {   
+    box-sizing: border-box;
+    justify-content: center;      
     max-width: 375px;
     margin: auto;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.151);
     text-align: center;
     background-color: white;
 }
 
-.img {  
-    display: block;
-    max-width: 375px;
-    max-height: 375px;
+.img {            
+    max-width: 21em;   
     border-radius: 15px;
-}    
+}
 
 .text {  
-    display: block;      
-    margin: 0 20px;    
+    display: block;
+
 }
 
 .text h2 {
     margin-top: 20px;
-    font-size: 28px;
-    font-weight: 800px;
+    font-size: 1.6em;
+    font-weight: bolder;
 }
 
 .text p {
     margin: 20px 0;
-    font-size: 20px;
-    font-weight: 400px;    
+    padding: 0 20px;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: 500;       
     color: lightslategray;
 }
 
